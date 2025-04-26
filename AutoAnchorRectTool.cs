@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using UnityEngine;
 using UnityEditor;
 
@@ -48,3 +49,4 @@ public class AutoAnchorRectTool : EditorWindow
             Vector2 pivot = rect.pivot;
             // Get local position and size
             Vector2 localPos = rect.localPosition
+#endif
