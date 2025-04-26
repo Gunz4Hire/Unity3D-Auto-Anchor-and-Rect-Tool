@@ -3,7 +3,7 @@ This helps maintain consistent layouts across different resolutions by removing 
 
 How to Use:
   1. Import the script inside your Unity project.
-  2. Make sure your Canvas is set to Screen Space - Camera | Screen Space - Overlay, this does not work in World Space.
+  2. Make sure your Canvas is set to Screen Space - Camera or Screen Space - Overlay, this does not work in World Space.
   3. Place your UI Elements where you want them to be.
   4. With the UI Elements selected (TMP Text, Image, ETC), Go to Tools -> Auto Anchor UI or Press Ctrl + Alt + A
 
